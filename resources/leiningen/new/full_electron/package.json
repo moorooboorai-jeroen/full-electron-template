@@ -1,0 +1,26 @@
+{
+  "name": "{{name}}",
+  "version": "0.1.0",
+  "description": "A fabulous application.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-repo-here/{{name}}.git"
+  },
+  "keywords": [
+    "{{name}}"
+  ],
+  "author": "your-name-here",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/your-repo-here/{{name}}/issues"
+  },
+  "homepage": "https://github.com/your-repo-here/{{name}}#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.2",
+    "nw-dev": "^1.3.1"
+  }
+}
