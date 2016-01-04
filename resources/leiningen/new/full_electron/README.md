@@ -56,6 +56,12 @@ Building for Windows (whilst on OS X)
 $ electron-packager . {{appname}} --out dist/pkg/win32 --platform=win32 --arch=x64 --version=$(electron -v | cut -c2-)
 ```
 
+Building for Linux
+
+```sh
+$ electron-packager . {{appname}} --out dist/pkg/linux --platform=linux --arch=x64 --version=$(electron -v | cut -c2-)
+```
+
 
 ## Building Installers
 Installers allow end users to install the application with a minimum of effort.
