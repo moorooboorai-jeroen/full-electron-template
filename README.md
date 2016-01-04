@@ -2,6 +2,8 @@
 
 ** UNFINISHED, WIP, DO NOT USE **
 
+[![Clojars Project](https://img.shields.io/clojars/v/full-electron/lein-template.svg)]
+
 # Usage
 
 ```sh
